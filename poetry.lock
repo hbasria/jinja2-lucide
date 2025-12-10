@@ -337,18 +337,15 @@ name = "lucide-py"
 version = "0.2.1"
 description = "A Lucide icon library package for Python applications"
 optional = false
-python-versions = ">=3.12,<4.0"
+python-versions = "<4.0,>=3.12"
 groups = ["main"]
 files = [
     {file = "lucide_py-0.2.1-py3-none-any.whl", hash = "sha256:126612a842fdf7d6fc482f5bb1ab8ebda0718214c1359368c83f6f98129f3715"},
+    {file = "lucide_py-0.2.1.tar.gz", hash = "sha256:a5b441d68a56ffd322b641edbedfe96144a655d6a11408aba1ea3f7b3fd5bd16"},
 ]
 
 [package.dependencies]
 tagflow = ">=0.12.0,<0.13.0"
-
-[package.source]
-type = "url"
-url = "https://github.com/dotlabshq/lucide-py/releases/download/0.2.1/lucide_py-0.2.1-py3-none-any.whl"
 
 [[package]]
 name = "markdown-it-py"
@@ -903,4 +900,4 @@ h11 = ">=0.16.0,<1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.14"
-content-hash = "eddb2b5b212e2c3e0f8bbe482742f6b3253fcbbb74784b63e6cc65cb3aa143db"
+content-hash = "ff9c74bf1f22ef05d3f938e84af0927adc1f3206cfac9ea4f4514ad8baf6b0b3"
