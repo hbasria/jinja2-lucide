@@ -14,7 +14,7 @@ template_str = """
 <body>
     <h1>Welcome!</h1>
     <p>Here's a neat icon: {% lucide "github" %}</p>
-    <p>Here's another one: {% lucide "activity" %}</p>
+    <p>Here's another one, with custom attributes: {% lucide "activity", width=48, height=48, class_="text-red-500" %}</p>
     <p>This one doesn't exist: {% lucide "non-existent-icon" %}</p>
 </body>
 </html>
