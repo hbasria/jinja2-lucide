@@ -1,6 +1,7 @@
 import lucide
 from jinja2 import nodes
 from jinja2.ext import Extension
+from markupsafe import Markup
 from tagflow import document
 
 
@@ -50,7 +51,7 @@ class LucideExtension(Extension):
                     pass
 
             # Return the SVG string
-            return doc.to_html()
+            return Markup(doc.to_html())
         except Exception as e:
             # In case the icon name is invalid or another error occurs
             print(f"Error rendering lucide icon '{icon_name}': {e}")
