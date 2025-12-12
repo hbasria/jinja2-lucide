@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jinja2-lucide"
-version = "0.1.0"
+version = "0.1.1"
 description = "An jinja2 tags, allows lucide-icons to be embedded as inline svg into templates. "
 authors = ["DotLabs Team <teams@dotlabs.dev>"]
 packages = [{include = "jinja2_lucide.py"}]
